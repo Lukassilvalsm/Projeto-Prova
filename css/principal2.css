@@ -1,0 +1,114 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+
+:root{
+    --cor0: #dac89c;
+    --cor1: #514233;
+    --cor2: #8b7862;
+    --cor3: #e7e0bf;
+    --cor4: #aaa38f;
+}
+
+body{
+    
+    
+    background-image: linear-gradient(#131212a9, #2b28249a), url(/Banner/essa.png);
+    background-position: center;
+    background-size: cover;    
+    background-attachment: fixed;    
+    font-size: 1.9em;
+    font-family: 'Times New Roman', Times, serif;
+    top: 0%;
+    left: 20% ;
+    transform: translate(0%,0%);
+    min-width: 520px;
+    max-width: 1050px;
+    margin: 0 auto;
+    
+}
+
+
+header{
+    font-family: 'Creepster', cursive;
+    margin: auto;
+    text-align: center;
+    background-color: whitesmoke;
+    font-family: 'Creepster', cursive;
+}
+header h1{
+    margin: 0;
+}
+header h2{
+    margin: 0;
+}
+header p{
+    margin: 0;
+}
+
+
+nav{
+    font-family: 'Creepster', cursive;
+    background-color: black; 
+    text-decoration: none;
+    color: whitesmoke;
+    font-weight: bold;
+    margin:0px;
+    padding: 0%;
+    text-align: center;
+    font-family: 'Creepster', cursive;
+}
+a {
+    text-decoration: none;
+    color: whitesmoke;
+    text-align: center;
+    margin: 30px;
+    padding: 0%;
+}
+a:hover{
+    color: white;
+}
+main{
+    background-color: whitesmoke;
+    
+    
+}
+.exemplo{
+    font-family: 'Creepster', cursive;
+}
+.texto{
+    color: whitesmoke;
+    background-color: black;
+    margin: -3px;
+}
+
+#teste{
+    background-color: rgba(0, 0, 0, 0.363);
+    font-size: 50px;
+}
+.teste{
+    background-color: rgba(0, 0, 0, 0.363);
+    font-size: 30px;
+}
+article{
+    background-color: #aaa38fdc;
+    text-align: left;
+    margin-top: 0%;
+}  
+
+
+.ponto{
+    margin: 5px;
+}
+#trinta{
+    background-image: url(/Banner/essa.png);
+    border: 3px solid white;
+}  
+footer{
+    background-color: rgba(0, 0, 0, 0.718);
+    color: aliceblue;
+    margin: 0 auto;
+} 
+.site{
+    font-size: 28px;
+}

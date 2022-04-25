@@ -1,0 +1,102 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+
+:root{
+    --cor0: #dac89c;
+    --cor1: #514233;
+    --cor2: #8b7862;
+    --cor3: #e7e0bf;
+    --cor4: #aaa38f;
+}
+body{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(#131212a9, #2b28249a), url(imagem/grega.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+    
+    font-size: 1.5em;
+}
+* {
+    color: white;
+    min-width: 320px;
+    max-width: 1100px;
+    text-align: justify;
+    margin: auto;
+    
+    
+}
+
+header h1  {
+    background-color: whitesmoke;
+    color: #161616;
+    font-size: 1.8em;
+    min-height:0px;
+    margin-bottom: 0%;
+    text-align: center;
+
+}
+header h2{
+    background-color: whitesmoke;
+    text-align: center;
+    color: #161616;
+    font-size: 1.5em;
+}
+header p{
+    text-align: center;
+    color: #161616;
+    font-size: 1.3em;
+    background-color: whitesmoke;
+}
+nav{
+    background-color: black; 
+    text-decoration: none;
+    color: whitesmoke;
+    font-weight: bold;
+    margin:0px;
+    padding: 0%;
+    text-align: center;
+}
+nav > a {
+    text-decoration: none;
+    color: whitesmoke;
+    text-align: center;
+    margin: 36px;
+    padding: 0%;
+}
+main{
+    background-color: #aaa38f;
+}
+main>article>img#principal{
+    float: right;
+    padding: 1%;
+    margin: 0%;
+    text-decoration: none;
+   
+ 
+}
+main > article > p.zeus{
+    
+    color: white;
+    text-align: justify;
+    padding: 2% 2%;
+    margin: 0%;
+    
+}
+
+main>article>img#segundaria{
+    float: left;
+    padding: 1%;
+    margin: 0%;
+    text-align: center;
+}
+main > article > p.poseidon{
+    color: rgb(34, 32, 32);
+    text-align: justify;
+    padding: 2% 2%;
+    margin: 0%;
+}
+

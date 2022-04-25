@@ -1,0 +1,115 @@
+@charset "utf-8";
+
+* {
+    
+    min-width: 320px;
+    max-width: 1100px;
+    padding: 0 ;
+    margin: 0;
+    
+    
+}
+body{
+    background-image: url(/teste/puta.png);
+    background-attachment: fixed;
+    
+    background-position: center;
+    background-size: cover;    
+        
+    
+    
+   
+    
+    margin: 0 auto;
+    
+    
+    
+    
+    
+   
+    
+   
+}
+.box{
+    color: whitesmoke;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgba(0, 0, 0, 0.65);
+    padding: 20px;
+    border-radius: 15px;
+    width: 30%;  
+    font-size: 25px;
+    
+}
+fieldset{
+    border: 4px solid black;
+    padding: 3px;
+    
+}
+legend{
+    border: 3px solid ;
+    background-color: black;
+    text-align: center;
+    padding: 15px;
+    border-radius: 8px;
+    min-width: 50%;
+    max-width: 100px;
+    
+}
+.inputbox{
+    position: relative;
+    margin: 20px 0;
+}
+.inputUser{
+    background: none;
+    border: none;
+    border-bottom: 1px solid;
+    outline: none;    
+    font-size: 15px;
+    width: 100%;
+    letter-spacing: 2px;
+   
+} 
+.labelinput{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    pointer-events: none;
+    transition: .5px;
+}
+.inputUser:focus~.labelinput,.inputUser:valid~.labelinput{
+    top: -20px;
+    font-size: 20px;
+    color: blue;
+}
+#data_nascimento{
+    border: none;
+    padding: 8px;
+    border-radius: 10px;
+    outline: none;
+    text-align: center;
+    padding: 0 auto;
+    font-size: 20px;
+    min-width: 50%;
+    max-width: 100px;
+}
+#data_nascimento:focus~.tempo{
+    color: blue;
+    font-size: 50px;
+}
+#submit{
+    background-color: rgba(39, 39, 39, 0.353);
+    width: 100%;
+    border: none;
+    padding: 15px;
+    font-size: 18px;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+   
+}
+#submit:hover{
+    background-color: black;
+}
